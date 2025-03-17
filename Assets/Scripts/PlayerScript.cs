@@ -43,10 +43,6 @@ public class PlayerScript : MonoBehaviour
         //First we make a variable that we'll use to record how we want to move
         Vector2 vel = new Vector2(0,0);
         
-		if (Input.GetKeyDown(KeyCode.Space))
-		{
-			SR.color = TargetColor;
-		}
 		
 		if (transform.position.x < -9.6)
 		{
