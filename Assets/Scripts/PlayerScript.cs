@@ -47,9 +47,13 @@ public class PlayerScript : MonoBehaviour
 		{
 			SR.color = TargetColor;
 		}
-		if (transform.position.x < 9.6)
+		
+		if (transform.position.x < -9.6)
 		{
-			transform.position.x = -9.6;
+			Vector3 pos = transform.position;
+			pos.x = -9.6f;
+			transform.position = pos;
+			//transform.position.x = -9.6;
 		}
         //Then we use if statement to figure out what that variable should look like
         
