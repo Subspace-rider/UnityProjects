@@ -44,14 +44,15 @@ public class PlayerScript : MonoBehaviour
         Vector2 vel = new Vector2(0,0);
         
 		
-		if (transform.position.x < -9.6)
+		//if (transform.position.x < -9.6)
 		{
-			Vector3 pos = transform.position;
-			pos.x = -9.6f;
-			transform.position = pos;
+			//Vector3 pos = transform.position;
+			//pos.x = -9.6f;
+			//transform.position = pos;
 			//transform.position.x = -9.6;
 		}
-        //Then we use if statement to figure out what that variable should look like
+        
+		//Then we use if statement to figure out what that variable should look like
         
         //If I hold the right arrow key, the player should move right. . .
         if (Input.GetKey(KeyCode.RightArrow))
